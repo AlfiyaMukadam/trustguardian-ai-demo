@@ -4,6 +4,7 @@
 
 TrustGuardian AI is a single-page React application that simulates a DigiCert TLM-style Certificates dashboard with an embedded AI intelligence layer.
 Instead of creating a separate AI product, this prototype enhances the existing certificate inventory workflow with contextual, explainable, and actionable risk intelligence.
+<img width="1727" height="993" alt="image" src="https://github.com/user-attachments/assets/29fbdc53-5d51-4387-b5cf-1a15aa83dc00" />
 
 ---
 
@@ -57,24 +58,30 @@ Risk levels:
 * High ≥ 80
 * Medium ≥ 50
 * Low < 50
-
+ 
 ### 3️⃣ Simulation Mode
 
 * Preview impact if high-risk certificates fail
 * Highlights affected dependency chains
 * Updates projected risk reduction KPI
+  
+  <img width="1525" height="327" alt="image" src="https://github.com/user-attachments/assets/d0f04677-ecee-4bfe-b2ae-54cf6ca65209" />
 
 ### 4️⃣ Quantum Readiness Mode
 
 * Subtle readiness indicators
 * Migration priority suggestions
 * Controlled enterprise-safe visual cues
+  
+  <img width="1535" height="401" alt="image" src="https://github.com/user-attachments/assets/f98d2e82-4b8d-47f1-ad0b-ba7440f50e25" />
 
 ### 5️⃣ Service Impact Path
 
 * Visual dependency chain
 * Revenue impact context
 * Simulation-aware highlighting
+  <img width="1726" height="942" alt="image" src="https://github.com/user-attachments/assets/de10c200-b4e1-4a3a-b023-351c63111814" />
+
 
 ### 6️⃣ AI Copilot Panel
 
@@ -84,6 +91,7 @@ Risk levels:
 * Activity timeline
 * Recalculation feedback
 
+  <img width="902" height="1014" alt="image" src="https://github.com/user-attachments/assets/674f5974-43f0-4208-95d2-9cb354954aca" />
 ---
 
 ## 📊 Dynamic Capabilities
