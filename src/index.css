@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Roboto Regular', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 0.875rem;
+  font-weight: 400;
+  background-color: #fff;
+  color: #353535;
+  line-height: 1.5715;
+  font-feature-settings: 'tnum';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #0174c3;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Roboto Medium', 'Roboto Regular', 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.risk-pulse {
+  transform: scale(1.05);
+  transition:
+    transform 0.25s ease-out,
+    box-shadow 0.25s ease-out;
+  box-shadow: 0 0 0 2px rgba(1, 116, 195, 0.2);
+}
+
+.row-recalc {
+  animation: rowFlash 0.35s ease-out;
+}
+
+@keyframes rowFlash {
+  from {
+    background-color: #f3f8fc;
+  }
+  to {
+    background-color: transparent;
+  }
+}
+
+@keyframes fade-in-out {
+  0% {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+
+.animate-fade-in-out {
+  animation: fade-in-out 1.8s ease-out forwards;
+}
